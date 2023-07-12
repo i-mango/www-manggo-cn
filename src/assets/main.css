@@ -1,0 +1,9 @@
+@import url(./base.css);
+
+#app {
+    font-weight: normal;
+}
+
+.text-center {
+    text-align: center;
+}
