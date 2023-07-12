@@ -1,0 +1,42 @@
+{
+  "mainTitle": "I MANGO",
+  "subtitle": "我是@Mango，Web端开发程序员。",
+  "test": "测试",
+  "filingNumber": "陇ICP备2021003158号-2",
+  "gonganFilingNumber": "渝公网安备 50011802010624号",
+  "copyright": "Copyright © 2020-2023 沐风 & 芒果 manggo.cn All Rights Reserved. ",
+  "links": [
+    {
+      "id": 1,
+      "name": "个人博客",
+      "icon": "book-one",
+      "url": "https://blog.manggo.cn",
+      "description": "我的日常，前端技术分享、每日一题、个人思考等内容",
+      "disable": false,
+      "status": "网站正在建设中。。。"
+    },
+    {
+      "id": 2,
+      "name": "我的简历",
+      "icon": "agreement",
+      "url": "https://resume.manggo.cn",
+      "description": "我的个人简历，主要分享我的个人经历、项目经历等",
+      "disable": true,
+      "status": "网站正在建设中。。。"
+    },
+    {
+      "id": 3,
+      "name": "MuFeng的个人主页",
+      "icon": "more-four",
+      "url": "https://blog.imufeng.cn",
+      "description": "MuFeng的个人博客，主要分享@mufeng的日常、后端技术等。很值得一看哦~",
+      "disable": false
+    }
+  ],
+  "platform": {
+    "Github": "",
+    "BiliBili": "",
+    "Mail": "",
+    "Gitee": ""
+  }
+}
