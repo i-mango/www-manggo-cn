@@ -27,7 +27,7 @@ const skipTo = (link) => {
     >
       <div class="link-detail">
         <IconPark class="icon" :type="link.icon" theme="filled" />
-        <h2 class="link-name">{{ link.name }}</h2>
+        <h3 class="link-name">{{ link.name }}</h3>
         <p class="link-description">{{ link.description }}</p>
       </div>
     </a>
@@ -45,7 +45,7 @@ const skipTo = (link) => {
   align-items: stretch;
   justify-content: center;
   overflow: hidden;
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   transition: border-top-color 0.3s ease;
 }
 
@@ -54,11 +54,10 @@ const skipTo = (link) => {
   flex-basis: calc(25% - 4rem);
   position: relative;
   overflow: hidden;
-  margin: 3rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   transition: transform 0.3s, box-shadow 0.3s;
-  min-width: 300px;
+  min-width: 30%;
 }
 .link:hover {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
@@ -79,7 +78,6 @@ const skipTo = (link) => {
   border-bottom: none;
   color: var(--color-text);
   font-weight: 700;
-  font-size: 1.25rem;
   padding-bottom: 0.3rem;
   line-height: 1.25;
   cursor: pointer;

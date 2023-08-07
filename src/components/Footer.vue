@@ -23,7 +23,7 @@ import configure from "@/assets/conf/configure.json"
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     text-align: center;
 }
 .footer ,.footer a {

@@ -20,11 +20,11 @@ import configure from '@/assets/conf/configure.json';
     align-items: center;
     justify-content: space-evenly;
     text-align: left;
-    padding: 6rem;
+    padding: 3rem;
 }
 .avatar {
     max-height: 280px;
-    max-width: 100%;
+    width: 22%;
     border-radius: 50%;
     //border: 10px solid var(--color-border);
 
@@ -34,14 +34,10 @@ import configure from '@/assets/conf/configure.json';
 }
 
 .main-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     background-image:linear-gradient(-225deg,#AC32E4 0%, #7918F2 48%, #4801FF 100%); /* 渐变色背景 */
     -webkit-background-clip: text; /* 将背景限制为文字区域 */
     -webkit-text-fill-color: transparent; /* 文字透明 */
-}
-
-.subtitle {
-
 }
 
 .main-title, .subtitle {
